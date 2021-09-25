@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+}
+
+header, footer {
+    width: 901px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    text-align: left;
+
+}
+
+#slogan h2 {
+    font-family: cursive;
+    font-size: 1.8em;
+}
+
+#slogan h3, #mainTitle h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: gray;
+}
+
+.grayHeader {
+    display: block;
+    background-image:url('images/hr-img.png');
+    background-repeat: repeat;
+    width: 901px;
+    height: 30px;
+}
+
+#mainTitle h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+#ingredients {
+    display: block;
+    margin: auto;
+    background-image:url('images/list-bg.png');
+    height: 305px;
+    width: 901px;
+}
+
+#logo img, #slogan, #logo, #allIcons {
+    display: inline-block;
+}
+
+#logo {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+#allIcons {
+    float: right;
+}
+
+#mainHeader{
+    display: block;
+    margin: auto;
+    width: 901px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+#mainTitle, #print img, #print p {
+    display: inline-block;
+}
+
+#print {
+    float: right;
+}
+
+#pictureAndTest {
+    display: block;
+    margin: auto;
+    width: 901px;
+}
+
+#pictureAndTest p {
+    text-indent: 25px;
+    margin: 20px 0px;
+}
+
+#leftList, #rightList {
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+}
+
+.checkboxes input, .checkboxes p {
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+#bioText, #bio {
+    display: inline-block;
+}
+
+#bio {
+    margin-bottom: 50px;
+}
+
+footer button {
+    float: right;
+}
+
+#copyright, #copyright image {
+    display: block;
+    text-align: center;
+}
